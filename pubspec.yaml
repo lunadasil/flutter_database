@@ -1,0 +1,28 @@
+name: act1
+description: A demo of local SQLite with sqflite
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# If your template has these, keep them:
+# version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Assignment-required packages
+  sqflite: ^2.2.2
+  path_provider: ^2.0.11
+  path: ^1.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # (no assets needed for this assignment)
